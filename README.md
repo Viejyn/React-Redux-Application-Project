@@ -12,7 +12,7 @@
 
 ### 🌐 `Deploy`
 
-
+https://react-redux-application-project.netlify.app/
 
 ### 🎥 `Screen`
 

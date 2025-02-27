@@ -119,18 +119,7 @@ const Product = () => {
       dispatch(modalFunc());
       navigate('/');
     }
-  };
-
-  const saveFunc = () => {
-    if (productInfo.id) {
-      // Eğer ürün ID varsa, güncelleme işlemi yap
-      dispatch(updateDataFunc(productInfo));
-    } else {
-      // Yeni ürün ekleme
-      dispatch(createDataFunc({ ...productInfo, id: new Date().getTime() }));
-    }
-    dispatch(modalFunc()); // Modal'ı kapat
-  };  
+  }; 
 
   const contentModal = (
     <>
